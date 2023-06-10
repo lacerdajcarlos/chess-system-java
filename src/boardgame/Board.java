@@ -45,6 +45,7 @@ public class Board {
 		pieces[position.getRow()][position.getColumn()] = piece;
 		piece.position = position;
 
+		
 	}
 
 	public boolean positionExits(int row, int column) {
